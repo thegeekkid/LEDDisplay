@@ -3,19 +3,19 @@
   <Profiles />
   <Settings>
     <Setting Name="EnableTime" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+      <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="TimeFormat" Type="System.String" Scope="User">
       <Value Profile="(Default)">h:mm tt</Value>
     </Setting>
     <Setting Name="EnableWeather" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+      <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="WeatherFormat" Type="System.String" Scope="User">
       <Value Profile="(Default)">Temp: $temperature$`C Hum: $humidity$% Wind: $windSpeed$km/h $windDirection$ Clouds: $clouds$</Value>
     </Setting>
     <Setting Name="EnableGMail" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">True</Value>
+      <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="GMailUserName" Type="System.String" Scope="User">
       <Value Profile="(Default)">YOUR_GMAIL_USER_NAME_HERE</Value>
@@ -31,6 +31,9 @@
     </Setting>
     <Setting Name="GMailFormat" Type="System.String" Scope="User">
       <Value Profile="(Default)">New mail: $unread$</Value>
+    </Setting>
+    <Setting Name="EnableThreatLevel" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">True</Value>
     </Setting>
   </Settings>
 </SettingsFile>

@@ -36,7 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="HidLibrary">
-      <HintPath>..\..\..\..\..\Downloads\HidLibrary-master\HidLibrary-master\src\HidLibrary\bin\Release\HidLibrary.dll</HintPath>
+      <HintPath>Libraries\HidLibrary.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -52,6 +52,7 @@
   <ItemGroup>
     <Compile Include="DisplayProvider.cs" />
     <Compile Include="DisplayProvider_GMail.cs" />
+    <Compile Include="DisplayProvider_ThreatLevel.cs" />
     <Compile Include="DisplayProvider_Time.cs" />
     <Compile Include="DisplayProvider_Weather.cs" />
     <Compile Include="FrameBuffer.cs" />
