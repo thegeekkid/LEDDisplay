@@ -1,6 +1,11 @@
 LEDDisplay
 ==========
 
+TheGeekKid's addition:
+This addition allows the user to pull the current threat level from https://msisac.cisecurity.org/alert-level/ and display it on the display.
+
+This project was created by FuzzyWuzzie - many thanks for making this easier than I thought it was going to be.  The original description is below:
+
 A C# program made for displaying useful data (unread email count, weather, and time currently) on the [Dream Cheeky LED Message Board](http://www.dreamcheeky.com/led-message-board)
 
 ## What It Does
